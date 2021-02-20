@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  body {
+    background-color: $sec-bg-color;
+    font-family: $font-roboto;
+    margin: 0;
+    h1 {
+      font-size: $h-size;
+      margin: 0;
+    }
+    p {
+      font-size: $par-size;
+      margin: 0;
+    }
+    a {
+      color: $main-white;
+      text-decoration: none;
+      font-size: $nl-size;
+      &:hover {
+        text-decoration: none;
+        color: $main-white;
+      }
+    }
+  }
+}

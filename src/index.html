@@ -1,12 +1,152 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Portfolio site</title>
+        <title>Dusan Djordjic</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
         <link rel="stylesheet" href="css/index.css">
     </head>
     <body>
-        <div>
-            <h1>Hi</h1>
+        <!-- Navigation -->
+        <div class="navigation">
+            <div class="nav-large d-none d-lg-block ">
+                <ul class="nav-links list-reset">
+                    <li class="nav-link nav-link-active">
+                        <i class="bi bi-house-fill"></i>
+                        <a href="">Home</a>
+                    </li>
+                    <li class="nav-link">
+                        <i class="bi bi-person-fill"></i>
+                        <a href="">About me</a>
+                    </li>
+                    <li class="nav-link">
+                        <i class="bi bi-briefcase-fill"></i>
+                        <a href="">My work</a>
+                    </li>
+                    <li class="nav-link">
+                        <i class="bi bi-book-fill"></i>
+                        <a href="">Education</a>
+                    </li>
+                    <li class="nav-link">
+                        <i class="bi bi-telephone-fill"></i>
+                        <a href="">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-small d-lg-none d-block">
+                <div class="nav-arrow">
+                    <i class="bi bi-arrow-down-square-fill"></i>
+                </div>
+                <div class="nav-expanded">
+                    <ul class="nav-links list-reset">
+                        <li class="nav-link nav-link-active">
+                            <i class="bi bi-house-fill"></i>
+                            <a href="">Home</a>
+                        </li>
+                        <li class="nav-link">
+                            <i class="bi bi-person-fill"></i>
+                            <a href="">About me</a>
+                        </li>
+                        <li class="nav-link">
+                            <i class="bi bi-briefcase-fill"></i>
+                            <a href="">My work</a>
+                        </li>
+                        <li class="nav-link">
+                            <i class="bi bi-book-fill"></i>
+                            <a href="">Education</a>
+                        </li>
+                        <li class="nav-link">
+                            <i class="bi bi-telephone-fill"></i>
+                            <a href="">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
+        <!-- Navigation END -->
+        <!-- Intro Img -->
+        <div class="intro-img-container">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 offset-lg-3 col-md-8 offset-md-2 intro-content">
+                        <div class="intro-content">
+                            <div class="img-warpper">
+                                <img
+                                class="img-fluid"
+                                src="assets/img/man.jpg"
+                                alt=""
+                                >
+                            </div>
+                            <div class="name-wrapper">
+                                <h1>Dusan Djordjic</h1>
+                            </div>
+                            <div class="quote-wrapper">
+                                <p>"Nothing works unlles you do"</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Intro Img END -->
+        <!-- General Information -->
+        <div class="gi-container">
+            <div class="container">
+                <!-- GI Article -->
+                <div class="row gi-article">
+                    <div class="col-xl-2 offset-xl-2 col-lg-2 offset-lg-1 col-4 gi-sideline">
+                        <div class="circle c-u"></div>
+                        <div class="circle c-d"></div>
+                        <h2 class="gi-title">ABOUT</h2>
+                    </div>
+                    <div class="col-xl-6 col-lg-8 col-8 ">
+                        <div class="gi-text">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur possimus voluptatum a. Omnis nam sapiente blanditiis quisquam, provident dignissimos saepe veritatis magni dolor asperiores. Mollitia labore unde, ipsum quia eos ad maiores pariatur, consequatur repellendus officia qui deserunt quod sapiente.</p>
+                        </div>
+                        <div class="gi-link">
+                            <a href="#" >READ MORE</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- GI Article END -->
+                <!-- GI Article -->
+                <div class="row gi-article">
+                    <div class="col-xl-2 offset-xl-2 col-lg-2 offset-lg-1 col-4 gi-sideline">
+                        <div class="circle c-u"></div>
+                        <div class="circle c-d"></div>
+                        <h2 class="gi-title">MY WORK</h2>
+                    </div>
+                    <div class="col-xl-6 col-lg-8 col-8 ">
+                        <div class="gi-text">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur possimus voluptatum a. Omnis nam sapiente blanditiis quisquam, provident dignissimos saepe veritatis magni dolor asperiores. Mollitia labore unde, ipsum quia eos ad maiores pariatur, consequatur repellendus officia qui deserunt quod sapiente.</p>
+                        </div>
+                        <div class="gi-link">
+                            <a href="#" >READ MORE</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- GI Article END -->
+                <!-- GI Article -->
+                <div class="row gi-article">
+                    <div class="col-xl-2 offset-xl-2 col-lg-2 offset-lg-1 col-4 gi-sideline">
+                        <div class="circle c-u"></div>
+                        <div class="circle c-d"></div>
+                        <h2 class="gi-title">EDUCATION</h2>
+                    </div>
+                    <div class="col-xl-6 col-lg-8 col-8 ">
+                        <div class="gi-text">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur possimus voluptatum a. Omnis nam sapiente blanditiis quisquam, provident dignissimos saepe veritatis magni dolor asperiores. Mollitia labore unde, ipsum quia eos ad maiores pariatur, consequatur repellendus officia qui deserunt quod sapiente.</p>
+                        </div>
+                        <div class="gi-link">
+                            <a href="#" >READ MORE</a>
+                        </div>
+                    </div>
+                </div>  
+                <!-- GI Article END -->
+            </div>
+        </div>
+        <!-- General Information END -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
     </body>
+
 </html>

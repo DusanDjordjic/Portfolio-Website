@@ -1,3 +1,194 @@
-div {
-  background-color: #a5a5a5;
+@import "partials/fonts";
+@import "partials/variables";
+@import "partials/global";
+@import "partials/header";
+@import "partials/helper";
+
+// Navigation Bar
+.navigation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: $main-black;
+  border-bottom: 1px solid $sec-dark;
+
+  // Nav-large
+
+  .nav-large {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .nav-links {
+      display: flex;
+      justify-content: center;
+      .nav-link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 25px 10px;
+        border-left: 1px solid $sec-dark;
+        transition: all $tr;
+        &:first-child {
+          border: none;
+        }
+        &:hover {
+          background-color: $sec-color;
+          i {
+            color: $main-black;
+          }
+          a {
+            color: $main-black;
+          }
+        }
+        i {
+          color: $main-white;
+          font-size: $nl-size;
+        }
+        a {
+          display: inline-block;
+          padding-left: 10px;
+        }
+      }
+    }
+  }
+
+  // Nav-small
+  .nav-small {
+    .nav-expanded {
+      .nav-links {
+        .nav-link {
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+          padding: 25px 10px;
+          transition: all $tr;
+          &:hover {
+            background-color: $sec-color;
+            i {
+              color: $main-black;
+            }
+            a {
+              color: $main-black;
+            }
+          }
+          i {
+            color: $main-white;
+            font-size: $nl-size;
+          }
+          a {
+            display: inline-block;
+            padding-left: 10px;
+          }
+        }
+      }
+    }
+    .nav-arrow {
+      i {
+        display: inline-block;
+        padding: 25px 10px;
+        color: $main-white;
+        font-size: $nl-size;
+      }
+    }
+  }
+
+  .nav-link-active {
+    background-color: $sec-color;
+    i {
+      color: $main-black;
+    }
+    a {
+      color: $main-black;
+    }
+  }
+}
+.intro-img-container {
+  background-color: $main-black;
+  padding: 80px 0;
+  .intro-content {
+    margin-top: 50px;
+    .img-warpper {
+      border-radius: 50%;
+      border: 2px solid $main-white;
+      img {
+        aspect-ratio: 1 / 1;
+        border-radius: 50%;
+        width: 100%;
+        object-fit: cover;
+      }
+    }
+    .name-wrapper {
+      margin-top: 50px;
+      text-align: center;
+      h1 {
+        color: $main-white;
+        font-family: $font-arvo;
+        text-transform: uppercase;
+      }
+    }
+    .quote-wrapper {
+      margin-top: 30px;
+      border-top: 2px solid $main-white;
+      border-bottom: 2px solid $main-white;
+      text-align: center;
+      p {
+        display: inline-block;
+        color: $main-white;
+        margin: 10px 0;
+        font-size: $quote-size;
+        font-family: $font-arvo;
+        font-style: italic;
+      }
+    }
+  }
+}
+
+.gi-container {
+  background-color: $sec-dark;
+  color: $main-white;
+  padding-bottom: 50px;
+  .gi-article {
+    margin: 0 10px;
+    padding-top: 100px;
+    .gi-sideline {
+      border-left: 2px solid $main-white;
+      position: relative;
+      .gi-title {
+        font-size: $quote-size;
+      }
+      .circle {
+        border-radius: 50%;
+        width: 10px;
+        height: 10px;
+        background-color: $main-white;
+      }
+      .c-u {
+        position: absolute;
+        top: -5px;
+        left: -6px;
+      }
+      .c-d {
+        position: absolute;
+        bottom: -5px;
+        left: -6px;
+      }
+    }
+    .gi-text p {
+      text-align: justify;
+    }
+    .gi-link a {
+      display: inline-block;
+      padding: 10px 15px;
+      background-color: $sec-color;
+      margin-top: 50px;
+      border: 1px solid $sec-color;
+      transition: all $tr;
+      color: $sec-dark;
+      &:hover {
+        background-color: $sec-dark;
+        color: $sec-color;
+      }
+    }
+  }
 }
