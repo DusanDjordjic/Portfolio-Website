@@ -4,9 +4,16 @@
     background-color: $sec-bg-color;
     font-family: $font-roboto;
     margin: 0;
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      margin: 0;
+    }
     h1 {
       font-size: $h-size;
-      margin: 0;
     }
     p {
       font-size: $par-size;
