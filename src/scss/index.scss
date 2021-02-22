@@ -101,7 +101,7 @@
   .nav-link-active {
     background-color: $sec-color;
     i {
-      color: $main-black;
+      color: $main-black !important;
     }
     a {
       color: $main-black;
@@ -256,6 +256,7 @@
 }
 .edu {
   background: rgb(40, 134, 139);
+  padding-bottom: 100px;
   background: linear-gradient(
     90deg,
     rgba(40, 134, 139, 1) 0%,

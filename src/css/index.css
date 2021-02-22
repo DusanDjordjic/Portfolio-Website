@@ -99,7 +99,7 @@
   .navigation .nav-link-active {
     background-color: #29d4c0; }
     .navigation .nav-link-active i {
-      color: #222222; }
+      color: #222222 !important; }
     .navigation .nav-link-active a {
       color: #222222; }
 
@@ -221,6 +221,7 @@
 
 .edu {
   background: #28868b;
+  padding-bottom: 100px;
   background: linear-gradient(90deg, #28868b 0%, #2bab9c 37%, #3ab7d6 100%); }
   .edu .edu-row {
     padding-top: 100px;
