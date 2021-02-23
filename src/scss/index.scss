@@ -3,111 +3,9 @@
 @import "partials/global";
 @import "partials/header";
 @import "partials/helper";
+@import "partials/nav";
+@import "partials/footer";
 
-// Navigation Bar
-.navigation {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  background-color: $main-black;
-  border-bottom: 1px solid $sec-dark;
-  z-index: 5;
-
-  // Nav-large
-
-  .nav-large {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    .nav-links {
-      display: flex;
-      justify-content: center;
-      .nav-link {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 25px 10px;
-        border-left: 1px solid $sec-dark;
-        transition: all $tr;
-        &:first-child {
-          border: none;
-        }
-        &:hover {
-          background-color: $sec-color;
-          i {
-            color: $main-black;
-          }
-          a {
-            color: $main-black;
-          }
-        }
-        i {
-          color: $main-white;
-          font-size: $nl-size;
-        }
-        a {
-          display: inline-block;
-          padding-left: 10px;
-        }
-      }
-    }
-  }
-
-  // Nav-small
-  .nav-small {
-    .nav-expanded {
-      .nav-links {
-        .nav-link {
-          display: flex;
-          justify-content: flex-start;
-          align-items: center;
-          padding: 25px 10px;
-          transition: all $tr;
-          &:hover {
-            background-color: $sec-color;
-            i {
-              color: $main-black;
-            }
-            a {
-              color: $main-black;
-            }
-          }
-          i {
-            color: $main-white;
-            font-size: $nl-size;
-          }
-          a {
-            display: inline-block;
-            padding-left: 10px;
-          }
-        }
-      }
-    }
-    .nav-arrow-container {
-      a {
-        display: inline-block;
-        height: 100%;
-        i {
-          display: inline-block;
-          padding: 25px 10px;
-          color: $main-white;
-          font-size: $nl-size;
-        }
-      }
-    }
-  }
-
-  .nav-link-active {
-    background-color: $sec-color;
-    i {
-      color: $main-black !important;
-    }
-    a {
-      color: $main-black;
-    }
-  }
-}
 .intro-img-container {
   background-color: $main-black;
   padding: 80px 0;
@@ -311,41 +209,7 @@
     height: 50px;
   }
 }
-.footer {
-  background-color: $main-black;
-  .f-icons-wrapper {
-    margin-top: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    a {
-      transition: all $tr;
-      &:hover {
-        color: $sec-color;
-      }
-      i {
-        font-size: 30px;
-        padding: 0 10px;
-      }
-    }
-  }
-  hr {
-    margin: 0px;
-    margin-top: 50px;
-    opacity: 1;
-    background-color: $sec-dark;
-  }
-  .f-copy {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 40px 0;
-    p {
-      color: $main-white;
-      font-size: $des-size;
-    }
-  }
-}
+
 .to-top {
   position: fixed;
   bottom: 30px;

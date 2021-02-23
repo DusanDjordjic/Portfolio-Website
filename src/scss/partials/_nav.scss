@@ -1,0 +1,104 @@
+// Navigation Bar
+.navigation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: $main-black;
+  border-bottom: 1px solid $sec-dark;
+  z-index: 5;
+
+  // Nav-large
+
+  .nav-large {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .nav-links {
+      display: flex;
+      justify-content: center;
+      .nav-link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 25px 10px;
+        border-left: 1px solid $sec-dark;
+        transition: all $tr;
+        &:first-child {
+          border: none;
+        }
+        &:hover {
+          background-color: $sec-color;
+          i {
+            color: $main-black;
+          }
+          a {
+            color: $main-black;
+          }
+        }
+        i {
+          color: $main-white;
+          font-size: $nl-size;
+        }
+        a {
+          display: inline-block;
+          padding-left: 10px;
+        }
+      }
+    }
+  }
+
+  // Nav-small
+  .nav-small {
+    .nav-expanded {
+      .nav-links {
+        .nav-link {
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+          padding: 25px 10px;
+          transition: all $tr;
+          &:hover {
+            background-color: $sec-color;
+            i {
+              color: $main-black;
+            }
+            a {
+              color: $main-black;
+            }
+          }
+          i {
+            color: $main-white;
+            font-size: $nl-size;
+          }
+          a {
+            display: inline-block;
+            padding-left: 10px;
+          }
+        }
+      }
+    }
+    .nav-arrow-container {
+      a {
+        display: inline-block;
+        height: 100%;
+        i {
+          display: inline-block;
+          padding: 25px 10px;
+          color: $main-white;
+          font-size: $nl-size;
+        }
+      }
+    }
+  }
+
+  .nav-link-active {
+    background-color: $sec-color;
+    i {
+      color: $main-black !important;
+    }
+    a {
+      color: $main-black;
+    }
+  }
+}

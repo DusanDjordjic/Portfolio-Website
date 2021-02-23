@@ -1,0 +1,35 @@
+.footer {
+  background-color: $main-black;
+  .f-icons-wrapper {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    a {
+      transition: all $tr;
+      &:hover {
+        color: $sec-color;
+      }
+      i {
+        font-size: 30px;
+        padding: 0 10px;
+      }
+    }
+  }
+  hr {
+    margin: 0px;
+    margin-top: 50px;
+    opacity: 1;
+    background-color: $sec-dark;
+  }
+  .f-copy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+    p {
+      color: $main-white;
+      font-size: $des-size;
+    }
+  }
+}
