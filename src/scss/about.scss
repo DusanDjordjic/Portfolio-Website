@@ -26,6 +26,7 @@
     }
   }
   .am-content {
+    margin-bottom: 30px;
     h2 {
       font-size: $subh-size;
       font-weight: 700;
@@ -66,40 +67,43 @@
       }
     }
     #ig {
-      background-color: #e42e6c;
+      background-color: $main-black;
       &:hover {
-        background-color: $sec-bg-color;
+        background-color: $sec-color;
         i {
-          color: #e42e6c;
+          color: $main-black;
         }
       }
     }
     #gh {
-      background-color: #16191c;
+      background-color: $main-black;
       &:hover {
-        background-color: $sec-bg-color;
+        background-color: $sec-color;
         i {
-          color: #16191c;
+          color: $main-black;
         }
       }
     }
     #tw {
-      background-color: #1e9beb;
+      background-color: $main-black;
       &:hover {
-        background-color: $sec-bg-color;
+        background-color: $sec-color;
         i {
-          color: #1e9beb;
+          color: $main-black;
         }
       }
     }
     #li {
-      background-color: #0073af;
+      background-color: $main-black;
       &:hover {
-        background-color: $sec-bg-color;
+        background-color: $sec-color;
         i {
-          color: #0073af;
+          color: $main-black;
         }
       }
     }
   }
+}
+.am-time {
+  margin-bottom: 50px;
 }

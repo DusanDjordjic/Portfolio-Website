@@ -145,18 +145,20 @@
   .am .am-img img {
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.44);
     border-radius: 10px 10px 5px 5px; }
-  .am .am-content h2 {
-    font-size: 30px;
-    font-weight: 700;
-    display: block;
-    border-bottom: 2px solid #313131; }
-  .am .am-content .am-des {
-    margin-top: 30px;
-    font-size: 20px;
-    color: #868e96; }
-  .am .am-content .am-par {
-    margin-top: 30px;
-    font-size: 16px; }
+  .am .am-content {
+    margin-bottom: 30px; }
+    .am .am-content h2 {
+      font-size: 30px;
+      font-weight: 700;
+      display: block;
+      border-bottom: 2px solid #313131; }
+    .am .am-content .am-des {
+      margin-top: 30px;
+      font-size: 20px;
+      color: #868e96; }
+    .am .am-content .am-par {
+      margin-top: 30px;
+      font-size: 16px; }
   .am .am-list {
     margin-top: 20px;
     display: flex;
@@ -178,28 +180,31 @@
           font-size: 40px;
           color: #eeffff; }
     .am .am-list #ig {
-      background-color: #e42e6c; }
+      background-color: #222222; }
       .am .am-list #ig:hover {
-        background-color: #eeffff; }
+        background-color: #29d4c0; }
         .am .am-list #ig:hover i {
-          color: #e42e6c; }
+          color: #222222; }
     .am .am-list #gh {
-      background-color: #16191c; }
+      background-color: #222222; }
       .am .am-list #gh:hover {
-        background-color: #eeffff; }
+        background-color: #29d4c0; }
         .am .am-list #gh:hover i {
-          color: #16191c; }
+          color: #222222; }
     .am .am-list #tw {
-      background-color: #1e9beb; }
+      background-color: #222222; }
       .am .am-list #tw:hover {
-        background-color: #eeffff; }
+        background-color: #29d4c0; }
         .am .am-list #tw:hover i {
-          color: #1e9beb; }
+          color: #222222; }
     .am .am-list #li {
-      background-color: #0073af; }
+      background-color: #222222; }
       .am .am-list #li:hover {
-        background-color: #eeffff; }
+        background-color: #29d4c0; }
         .am .am-list #li:hover i {
-          color: #0073af; }
+          color: #222222; }
+
+.am-time {
+  margin-bottom: 50px; }
 
 /*# sourceMappingURL=about.css.map */

@@ -1,0 +1,27 @@
+{
+    "tshirt-1" : {
+        "title":"title",
+        "description":"description",
+        "img":"path"
+    },
+    "thsirt-2" : {
+        "title":"title2",
+        "description":"description2",
+        "img":"path2"
+    },
+    "thsirt-3" : {
+        "title":"title3",
+        "description":"description3",
+        "img":"path3"
+    },
+    "thsirt-4" : {
+        "title":"title4",
+        "description":"description4",
+        "img":"path4"
+    },
+    "thsirt-5" : {
+        "title":"title5",
+        "description":"description5",
+        "img":"path5"
+    }
+}

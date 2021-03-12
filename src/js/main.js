@@ -1,3 +1,10 @@
+var tshirts = {};
+  $.getJSON('designs.json', function(data) { 
+    tshirts = data;
+  }); 
+console.log(tshirts);
+
+
 $('.nav-expanded').hide();
 $('.nav-arrow').click(function(event){
     event.preventDefault();
